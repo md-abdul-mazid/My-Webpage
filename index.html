@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MY WEBPAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>hello world</h1>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">facebook</h1>
+            <input type="text" placeholder="Search Facebook" class="search-bar">
+            <div class="nav-icons">
+                <span>🏠</span>
+                <span>👥</span>
+                <span>🎥</span>
+                <span>🛒</span>
+                <span>🔔</span>
+                <span>⚙️</span>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>👤 Profile</li>
+                <li>📝 News Feed</li>
+                <li>📸 Photos</li>
+                <li>📺 Watch</li>
+                <li>📅 Events</li>
+                <li>⚙️ Settings</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <div class="post-box">
+                <input type="text" placeholder="What's on your mind?" class="post-input">
+                <button class="post-btn">Post</button>
+            </div>
+            <div class="feed">
+                <div class="post">
+                    <h3>Md. Abdul Mazid</h3>
+                    <p>Enjoying my time at DIU! 📚</p>
+                    <img src="image1.jpg" alt="Post Image" class="post-img">
+                </div>
+                <div class="post">
+                    <h3>Umme Sadia Mitu</h3>
+                    <p>Cooking something special today! 🍲</p>
+                    <img src="image2.jpg" alt="Post Image" class="post-img">
+                </div>
+                <div class="post">
+                    <h3>Kuruluş Osman</h3>
+                    <p>New episode out! Who's excited? ⚔️</p>
+                    <img src="image3.jpg" alt="Post Image" class="post-img">
+                </div>
+                <div class="post">
+                    <h3>Mehedi Hasan Ratul</h3>
+                    <p>Great day at Daffodil University! 🎓</p>
+                    <img src="image4.jpg" alt="Post Image" class="post-img">
+                </div>
+            </div>
+        </main>
+        <aside class="right-sidebar">
+            <h3>Contacts</h3>
+            <ul>
+                <li>👤 Friend 1</li>
+                <li>👤 Friend 2</li>
+                <li>👤 Friend 3</li>
+            </ul>
+        </aside>
+    </div>
 </body>
 </html>
